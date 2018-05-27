@@ -1,5 +1,5 @@
 class Dog 
- def name= (dogs_name = "Fido")
+ def name= (dogs_name == "Fido")
    puts "#{dogs_name}"
  end
  def name
@@ -8,6 +8,3 @@ end
     puts "woof!"
  end
 end
-
-fido = Dog.new
-fido.name = "Fido"
