@@ -7,5 +7,3 @@ end
  end
 end
 
-dogs_name = Dog.new
-dogs_name.name = "Fido"
