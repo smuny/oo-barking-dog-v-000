@@ -4,7 +4,7 @@ class Dog
    the_name = dogs_name
  end
  def name
-   the_name
+   return the_name
 end
   def bark
     puts "woof!"
