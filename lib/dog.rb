@@ -1,6 +1,6 @@
 class Dog 
  def name=
-   puts "#{}"
+   puts "It has a name"
 end
   def bark
     puts "woof!"
