@@ -1,10 +1,11 @@
 class Dog 
  def name= (dogs_name)
    puts "#{dogs_name}"
-   fido.name = "Fido"
 end
   def bark
     puts "woof!"
  end
 end
 
+fido = Dog.new
+fido.name = "Fido"
