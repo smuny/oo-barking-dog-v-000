@@ -1,6 +1,7 @@
 class Dog 
- def name= (dogs_name = "Fido")
+ def name= (dogs_name)
    puts "#{dogs_name}"
+   
  end
  def name
 end
