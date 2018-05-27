@@ -7,5 +7,5 @@ end
  end
 end
 
-fido = Dog.new
-fido.name= "Fido"
+dogs_name = Dog.new
+dogs_name.name = "Fido"
